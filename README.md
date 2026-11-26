@@ -1,3 +1,4 @@
+<img width="1341" height="330" alt="download" src="https://github.com/user-attachments/assets/4165fefb-2de5-4046-9999-6ab943c2f1c5" />
 # Compromising-windows-using-Metasploit
 Compromising windows using Metasploit
 # Metasploit
@@ -81,15 +82,18 @@ The file "fun.exe" downloads.
 ## OUTPUT:
 
 
+<img width="1341" height="330" alt="download" src="https://github.com/user-attachments/assets/3b28cb6e-34a1-4751-9849-d093a427fec5" />
+
 
 Bypass any warning boxes, double-click the file, and allow it to run.
 ## OUTPUT:
-
+<img width="1398" height="360" alt="02-process-list-clear" src="https://github.com/user-attachments/assets/7e192ec6-a2f2-4b69-aa66-72f9c1b1e644" />
 
 
 On kali/parrot give the command exploit
 ## OUTPUT:
 
+<img width="1266" height="141" alt="03-keystroke-start-clear" src="https://github.com/user-attachments/assets/d8db3785-f71c-453b-b09c-3fd33cf2cb47" />
 
 
 To see a list of processes, at the meterpreter > prompt, execute this command:
@@ -114,6 +118,7 @@ Notice the "PID/Program name" value for this connection, which is redacted
 ## OUTPUT:
 
 
+![Uploading 719003057-192ca3c7-f9d0-44e7-ad71-3eff1fc57aa3.png…]()
 
 Post Exploitation
 The target is now owned. Following are meterpreter commands for key capturing in the target machine
@@ -121,6 +126,7 @@ keyscan_start	Begins capturing keys typed in the target. On the Windows target, 
 ## OUTPUT:
 
 
+<img width="1671" height="378" alt="04-keystroke-dump-clear" src="https://github.com/user-attachments/assets/8b43d308-e6ad-48f4-a91e-ddc727d64058" />
 
 
 keyscan_dump	Shows the keystrokes captured so far
