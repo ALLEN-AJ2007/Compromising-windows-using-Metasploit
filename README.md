@@ -72,6 +72,7 @@ set LHOST 0.0.0.0
 ## OUTPUT:
 
 
+<img width="877" height="736" alt="Screenshot 2026-11-19 142448" src="https://github.com/user-attachments/assets/15d3f795-281d-45d5-b611-979a107b0396" />
 
 
 On the target Windows machine, open a Web browser and open this URL, replacing the IP address with the IP address of your Kali machine:
