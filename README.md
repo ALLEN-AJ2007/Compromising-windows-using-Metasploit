@@ -1,4 +1,3 @@
-<img width="1341" height="330" alt="download" src="https://github.com/user-attachments/assets/4165fefb-2de5-4046-9999-6ab943c2f1c5" />
 # Compromising-windows-using-Metasploit
 Compromising windows using Metasploit
 # Metasploit
@@ -117,8 +116,8 @@ A list of network connections appears, including one to a remote port of 4444, a
 Notice the "PID/Program name" value for this connection, which is redacted 
 ## OUTPUT:
 
+<img width="703" height="672" alt="719003057-192ca3c7-f9d0-44e7-ad71-3eff1fc57aa3" src="https://github.com/user-attachments/assets/b28727a0-8e62-47f3-ad3b-91849a4c867a" />
 
-![Uploading 719003057-192ca3c7-f9d0-44e7-ad71-3eff1fc57aa3.png…]()
 
 Post Exploitation
 The target is now owned. Following are meterpreter commands for key capturing in the target machine
@@ -126,7 +125,6 @@ keyscan_start	Begins capturing keys typed in the target. On the Windows target, 
 ## OUTPUT:
 
 
-<img width="1671" height="378" alt="04-keystroke-dump-clear" src="https://github.com/user-attachments/assets/8b43d308-e6ad-48f4-a91e-ddc727d64058" />
 
 
 keyscan_dump	Shows the keystrokes captured so far
